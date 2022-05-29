@@ -33,20 +33,117 @@ a{
 main{
     margin:20px;
     padding:20px;
-    text-align: center;
 }
-li{
+.name{
+    font-size: 44px;
+    font-weight: bolder;
+}
+.intro{
+    text-align:center;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+.card{
+    width:25rem;
+    height:10rem;
+    color:white;
+    background: black;
+    /* background: linear-gradient(90deg, rgba(34, 33, 33,0.8), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    linear-gradient(90deg, rgba(255,255, 255,0), rgb(46, 43, 43,0.8), rgba(34, 33, 33,0.8));; */
+    border-radius: 5px;
+    padding:15px 0px 15px 45px;
+    box-shadow:rgba(34, 33, 33,0.8) 0 0 20px;
+}
+.card:hover{
+    background: transparent;
+    border:1px solid black;
+    color:black;
+    border-radius:5px;
+    font-weight: bolder;
+}
+.card > li{
     list-style-type: none;
+    position: relative;
+    left: 1rem;
+    padding:2px;
 }
+
 .container{
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: repeat(2, 1fr);
+    margin:0 5rem;
+}
+.container1{
+    margin-top:2rem;
+    display:flex;
+    justify-content: space-between;
+}
+.container2{
+    margin-top:2rem;
+    display:flex;
+    justify-content: space-between;
+}
+.about{
+    background: none;
+    color:white;
+    font-size:1.5rem;
+    float:left;
+    margin-top:0.5rem;
+    margin-left:5rem;
 }
 form{
     border: 2px solid black;
-    width: auto;
+    width: 500px;
     padding:20px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
 }
+form > div{
+    margin-bottom: 0.8rem;
+    margin-left: 3rem;
+    padding-top:15px;
+}
+.form-input{
+    display:flex;
+    /* gap:3rem; */
+
+}
+
+.full_name{
+    margin-left:6rem;
+
+}
+.email{
+    margin-left:2.5rem;
+}
+.message{
+    margin-left:2rem;
+}
+.priority{
+    margin-left: 5.3rem;
+}
+button{
+    background: black;
+    width:100px;
+    padding:5px 8px;
+    color:white;
+    margin:50px;
+}
+table{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    width:500px;
+    height:300px;
+}
+/* .answer{
+    background: black;
+    color:white;
+    width:auto;
+} */
 footer{
     text-align: center;
     color:white;

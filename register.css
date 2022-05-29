@@ -1,0 +1,29 @@
+.first_name{
+    margin-left: 4.9rem;
+}
+.last_name{
+    margin-left: 5rem;
+}
+.phone{
+    margin-left: 3.3rem;
+}
+
+.gender{
+    margin-left: 6.4rem;
+    padding: 2px 2px 2px 2px;
+}
+.gender::placeholder{
+    margin: 2px 2px 2px 924px;
+}
+.state{
+    margin-left:7.3rem;
+}
+.username{
+    margin-left: 5.3rem;
+}
+.password{
+    margin-left: 5.4rem;
+}
+.confirm_password{
+    margin-left: 2rem;
+}
